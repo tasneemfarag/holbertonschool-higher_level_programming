@@ -1,0 +1,1 @@
+[{"first_name": "ABCD", "last_name": "EFGH", "is_married_to": 0, "genre": "Male", "date_of_birth": [12, 4, 1998], "eyes_color": "Blue", "type": "Person", "id": 1}, {"first_name": "ABCD_junior", "last_name": "EFGH", "is_married_to": 0, "genre": "Male", "date_of_birth": [12, 4, 1998], "eyes_color": "Blue", "type": "Baby", "id": 2}]
