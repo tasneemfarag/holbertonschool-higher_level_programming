@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Tapper.xcscheme</key>
+		<key>TapperProject.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,7 +12,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>DE054F721CF6262800496347</key>
+		<key>B4AF25751CF4E5B600D15DDF</key>
 		<dict>
 			<key>primary</key>
 			<true/>

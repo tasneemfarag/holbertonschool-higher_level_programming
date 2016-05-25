@@ -7,25 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DE054F771CF6262800496347 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE054F761CF6262800496347 /* AppDelegate.swift */; };
-		DE054F791CF6262800496347 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE054F781CF6262800496347 /* ViewController.swift */; };
-		DE054F7C1CF6262800496347 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE054F7A1CF6262800496347 /* Main.storyboard */; };
-		DE054F7E1CF6262800496347 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE054F7D1CF6262800496347 /* Assets.xcassets */; };
-		DE054F811CF6262800496347 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE054F7F1CF6262800496347 /* LaunchScreen.storyboard */; };
+		B4AF257A1CF4E5B600D15DDF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AF25791CF4E5B600D15DDF /* AppDelegate.swift */; };
+		B4AF257C1CF4E5B600D15DDF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AF257B1CF4E5B600D15DDF /* ViewController.swift */; };
+		B4AF257F1CF4E5B600D15DDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4AF257D1CF4E5B600D15DDF /* Main.storyboard */; };
+		B4AF25811CF4E5B600D15DDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4AF25801CF4E5B600D15DDF /* Assets.xcassets */; };
+		B4AF25841CF4E5B600D15DDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4AF25821CF4E5B600D15DDF /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		DE054F731CF6262800496347 /* Tapper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tapper.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		DE054F761CF6262800496347 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DE054F781CF6262800496347 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DE054F7B1CF6262800496347 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		DE054F7D1CF6262800496347 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DE054F801CF6262800496347 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		DE054F821CF6262800496347 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4AF25761CF4E5B600D15DDF /* TapperProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TapperProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4AF25791CF4E5B600D15DDF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B4AF257B1CF4E5B600D15DDF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B4AF257E1CF4E5B600D15DDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B4AF25801CF4E5B600D15DDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B4AF25831CF4E5B600D15DDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B4AF25851CF4E5B600D15DDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		DE054F701CF6262800496347 /* Frameworks */ = {
+		B4AF25731CF4E5B600D15DDF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -35,71 +35,71 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		DE054F6A1CF6262800496347 = {
+		B4AF256D1CF4E5B600D15DDF = {
 			isa = PBXGroup;
 			children = (
-				DE054F751CF6262800496347 /* Tapper */,
-				DE054F741CF6262800496347 /* Products */,
+				B4AF25781CF4E5B600D15DDF /* TapperProject */,
+				B4AF25771CF4E5B600D15DDF /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		DE054F741CF6262800496347 /* Products */ = {
+		B4AF25771CF4E5B600D15DDF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DE054F731CF6262800496347 /* Tapper.app */,
+				B4AF25761CF4E5B600D15DDF /* TapperProject.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DE054F751CF6262800496347 /* Tapper */ = {
+		B4AF25781CF4E5B600D15DDF /* TapperProject */ = {
 			isa = PBXGroup;
 			children = (
-				DE054F761CF6262800496347 /* AppDelegate.swift */,
-				DE054F781CF6262800496347 /* ViewController.swift */,
-				DE054F7A1CF6262800496347 /* Main.storyboard */,
-				DE054F7D1CF6262800496347 /* Assets.xcassets */,
-				DE054F7F1CF6262800496347 /* LaunchScreen.storyboard */,
-				DE054F821CF6262800496347 /* Info.plist */,
+				B4AF25791CF4E5B600D15DDF /* AppDelegate.swift */,
+				B4AF257B1CF4E5B600D15DDF /* ViewController.swift */,
+				B4AF257D1CF4E5B600D15DDF /* Main.storyboard */,
+				B4AF25801CF4E5B600D15DDF /* Assets.xcassets */,
+				B4AF25821CF4E5B600D15DDF /* LaunchScreen.storyboard */,
+				B4AF25851CF4E5B600D15DDF /* Info.plist */,
 			);
-			path = Tapper;
+			path = TapperProject;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DE054F721CF6262800496347 /* Tapper */ = {
+		B4AF25751CF4E5B600D15DDF /* TapperProject */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DE054F851CF6262800496347 /* Build configuration list for PBXNativeTarget "Tapper" */;
+			buildConfigurationList = B4AF25881CF4E5B600D15DDF /* Build configuration list for PBXNativeTarget "TapperProject" */;
 			buildPhases = (
-				DE054F6F1CF6262800496347 /* Sources */,
-				DE054F701CF6262800496347 /* Frameworks */,
-				DE054F711CF6262800496347 /* Resources */,
+				B4AF25721CF4E5B600D15DDF /* Sources */,
+				B4AF25731CF4E5B600D15DDF /* Frameworks */,
+				B4AF25741CF4E5B600D15DDF /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Tapper;
-			productName = Tapper;
-			productReference = DE054F731CF6262800496347 /* Tapper.app */;
+			name = TapperProject;
+			productName = TapperProject;
+			productReference = B4AF25761CF4E5B600D15DDF /* TapperProject.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		DE054F6B1CF6262800496347 /* Project object */ = {
+		B4AF256E1CF4E5B600D15DDF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0730;
-				ORGANIZATIONNAME = "Tasneem Farag";
+				ORGANIZATIONNAME = "Holberton School";
 				TargetAttributes = {
-					DE054F721CF6262800496347 = {
+					B4AF25751CF4E5B600D15DDF = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
 				};
 			};
-			buildConfigurationList = DE054F6E1CF6262800496347 /* Build configuration list for PBXProject "Tapper" */;
+			buildConfigurationList = B4AF25711CF4E5B600D15DDF /* Build configuration list for PBXProject "TapperProject" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -107,54 +107,54 @@
 				en,
 				Base,
 			);
-			mainGroup = DE054F6A1CF6262800496347;
-			productRefGroup = DE054F741CF6262800496347 /* Products */;
+			mainGroup = B4AF256D1CF4E5B600D15DDF;
+			productRefGroup = B4AF25771CF4E5B600D15DDF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DE054F721CF6262800496347 /* Tapper */,
+				B4AF25751CF4E5B600D15DDF /* TapperProject */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		DE054F711CF6262800496347 /* Resources */ = {
+		B4AF25741CF4E5B600D15DDF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE054F811CF6262800496347 /* LaunchScreen.storyboard in Resources */,
-				DE054F7E1CF6262800496347 /* Assets.xcassets in Resources */,
-				DE054F7C1CF6262800496347 /* Main.storyboard in Resources */,
+				B4AF25841CF4E5B600D15DDF /* LaunchScreen.storyboard in Resources */,
+				B4AF25811CF4E5B600D15DDF /* Assets.xcassets in Resources */,
+				B4AF257F1CF4E5B600D15DDF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		DE054F6F1CF6262800496347 /* Sources */ = {
+		B4AF25721CF4E5B600D15DDF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE054F791CF6262800496347 /* ViewController.swift in Sources */,
-				DE054F771CF6262800496347 /* AppDelegate.swift in Sources */,
+				B4AF257C1CF4E5B600D15DDF /* ViewController.swift in Sources */,
+				B4AF257A1CF4E5B600D15DDF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		DE054F7A1CF6262800496347 /* Main.storyboard */ = {
+		B4AF257D1CF4E5B600D15DDF /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				DE054F7B1CF6262800496347 /* Base */,
+				B4AF257E1CF4E5B600D15DDF /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		DE054F7F1CF6262800496347 /* LaunchScreen.storyboard */ = {
+		B4AF25821CF4E5B600D15DDF /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				DE054F801CF6262800496347 /* Base */,
+				B4AF25831CF4E5B600D15DDF /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -162,7 +162,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		DE054F831CF6262800496347 /* Debug */ = {
+		B4AF25861CF4E5B600D15DDF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -204,10 +204,11 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		DE054F841CF6262800496347 /* Release */ = {
+		B4AF25871CF4E5B600D15DDF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -241,28 +242,29 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		DE054F861CF6262800496347 /* Debug */ = {
+		B4AF25891CF4E5B600D15DDF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = Tapper/Info.plist;
+				INFOPLIST_FILE = TapperProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Holbertonschool.com.Tapper;
+				PRODUCT_BUNDLE_IDENTIFIER = com.holbertonschool.TapperProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		DE054F871CF6262800496347 /* Release */ = {
+		B4AF258A1CF4E5B600D15DDF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = Tapper/Info.plist;
+				INFOPLIST_FILE = TapperProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Holbertonschool.com.Tapper;
+				PRODUCT_BUNDLE_IDENTIFIER = com.holbertonschool.TapperProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -270,24 +272,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DE054F6E1CF6262800496347 /* Build configuration list for PBXProject "Tapper" */ = {
+		B4AF25711CF4E5B600D15DDF /* Build configuration list for PBXProject "TapperProject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DE054F831CF6262800496347 /* Debug */,
-				DE054F841CF6262800496347 /* Release */,
+				B4AF25861CF4E5B600D15DDF /* Debug */,
+				B4AF25871CF4E5B600D15DDF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DE054F851CF6262800496347 /* Build configuration list for PBXNativeTarget "Tapper" */ = {
+		B4AF25881CF4E5B600D15DDF /* Build configuration list for PBXNativeTarget "TapperProject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DE054F861CF6262800496347 /* Debug */,
-				DE054F871CF6262800496347 /* Release */,
+				B4AF25891CF4E5B600D15DDF /* Debug */,
+				B4AF258A1CF4E5B600D15DDF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = DE054F6B1CF6262800496347 /* Project object */;
+	rootObject = B4AF256E1CF4E5B600D15DDF /* Project object */;
 }

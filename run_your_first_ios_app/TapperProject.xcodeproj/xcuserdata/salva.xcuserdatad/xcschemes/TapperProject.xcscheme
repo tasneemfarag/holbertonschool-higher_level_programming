@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DE054F721CF6262800496347"
-               BuildableName = "Tapper.app"
-               BlueprintName = "Tapper"
-               ReferencedContainer = "container:Tapper.xcodeproj">
+               BlueprintIdentifier = "B4AF25751CF4E5B600D15DDF"
+               BuildableName = "TapperProject.app"
+               BlueprintName = "TapperProject"
+               ReferencedContainer = "container:TapperProject.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DE054F721CF6262800496347"
-            BuildableName = "Tapper.app"
-            BlueprintName = "Tapper"
-            ReferencedContainer = "container:Tapper.xcodeproj">
+            BlueprintIdentifier = "B4AF25751CF4E5B600D15DDF"
+            BuildableName = "TapperProject.app"
+            BlueprintName = "TapperProject"
+            ReferencedContainer = "container:TapperProject.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -55,10 +55,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DE054F721CF6262800496347"
-            BuildableName = "Tapper.app"
-            BlueprintName = "Tapper"
-            ReferencedContainer = "container:Tapper.xcodeproj">
+            BlueprintIdentifier = "B4AF25751CF4E5B600D15DDF"
+            BuildableName = "TapperProject.app"
+            BlueprintName = "TapperProject"
+            ReferencedContainer = "container:TapperProject.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -74,10 +74,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DE054F721CF6262800496347"
-            BuildableName = "Tapper.app"
-            BlueprintName = "Tapper"
-            ReferencedContainer = "container:Tapper.xcodeproj">
+            BlueprintIdentifier = "B4AF25751CF4E5B600D15DDF"
+            BuildableName = "TapperProject.app"
+            BlueprintName = "TapperProject"
+            ReferencedContainer = "container:TapperProject.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
