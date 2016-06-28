@@ -3,7 +3,7 @@ import threading
 class Sum():
 
 	'''Class attribute'''
-	sum = 0
+	sum_of_ints = 0
 
 	'''Constructor'''
 	def __init__(self, nb_threads, numbers):
@@ -14,19 +14,26 @@ class Sum():
 			raise Exception("numbers is not an array of integers")
 		self.__numbers = numbers
 		self.__sum_array_threads = []
+		Sum.sum_of_ints = 0
 
-		spliting_index = len(self.__numbers)/self.__nb_threads
-		for num in range(1, self.__nb_threads + 1):
-			sum_array_thread = SumThread(self.__numbers)
+		slicer = len(self.__numbers)/self.__nb_threads
+		#for num in range(1, self.__nb_threads + 1):
+			#first_index = (len(self.__numbers)/self.__nb_threads) * (num - 1)
+			#second_index = (len(self.__numbers)/self.__nb_threads) * num
+		slicing_indices  = self.__numbers[::slicer] 
+		for num in range(0, len(slicing_indices)):
+			if num+1 < len(slicing_indices): 
+				sum_array_thread = SumThread(self.__numbers[slicing_indices[num]:slicing_indices[num+1]])
+			else:
+				sum_array_thread = SumThread(self.__numbers[slicing_indices[num]:len(self.__numbers)])
+
 			self.__sum_array_threads += [sum_array_thread]
 			sum_array_thread.start()
-
-			
 
 	'''public method'''
 	def isComputing(self):
 		not_finished = False
-		for t in self.__nb_threads:
+		for t in self.__sum_array_threads:
 			if t.is_alive():
 				not_finished = True
 				break
@@ -34,7 +41,7 @@ class Sum():
 
 	'''Public Method'''
 	def __str__(self):
-		return '%s' % self.sum	
+		return '%s' % self.sum_of_ints	
 
 
 class SumThread(threading.Thread):
@@ -48,6 +55,6 @@ class SumThread(threading.Thread):
 
 	'''public method'''
 	def run(self):
-		Sum.sum = sum(self.__numbers)
-		return Sum.sum
+		Sum.sum_of_ints += sum(self.__numbers)
+		return Sum.sum_of_ints
 
